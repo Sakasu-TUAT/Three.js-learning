@@ -6,9 +6,13 @@
     <title>Three.js-practice</title>
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script type="text/javascript" async 
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
 </head>
 <body>
     <canvas id="myCanvas"></canvas>
+
     
     <header>
         <div class="logo-title">
@@ -17,8 +21,10 @@
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
+                <li><a href="#">Algo</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+
         </nav>
     </header>
 
@@ -26,6 +32,9 @@
         <h1>The Earth</h1>
         <p>
            地球を回せ、工学部。
+           \begin{align}
+           F(\omega) = \cfrac{1}{\sqrt{2\pi}}\int_{-\infty}^{+\infty}f(t)e^{i\omega t}dt
+           \end{align}
         </p>
         <button>Go Space</button>
     </div>
