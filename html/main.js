@@ -37,7 +37,7 @@ function init(){
     const geometry = new THREE.SphereGeometry(300, 30, 30);
     //マテリアル生成、材質決定
     const material = new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load('textures/earthmap1k.jpg'),
+        map: new THREE.TextureLoader().load('../textures/earthmap1k.jpg'),
         side: THREE.DoubleSide,
     });
     //　メッシュ作成

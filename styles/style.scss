@@ -1,3 +1,5 @@
+@import "./_common";
+
 * {
     margin: 0;
     padding: 0;
@@ -16,36 +18,6 @@ canvas {
     overflow: hidden;
 }
 
-header {
-    margin: 0 auto;
-    position: absolute;
-    top: 0;
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 10vh;
-}
-
-header h2 {
-    font-size: 2rem;
-    font-weight: 400;
-    margin: 0;
-}
-
-header ul {
-    font-size: 20px;
-    list-style: none;
-    display: flex;
-}
-
-header ul a {
-    color:white;
-    text-decoration: none; /*_削除*/
-    margin: 0 20px; /*上下の余白を0, 左右の余白を10px*/
-    display: inline-block; /*インライン要素をブロック要素に変更*/
-}
 
 .hero {
     text-align: center;
